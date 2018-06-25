@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import {connect} from 'react-redux';
 
 import { actionCreators } from '../todoListRedux';
@@ -32,7 +32,7 @@ class Main extends Component {
         const {todos} = this.props;
 
         return (
-            <View>
+            <ScrollView>
                 <Title>
                     To-Do List
                 </Title>
@@ -44,7 +44,7 @@ class Main extends Component {
                     list={todos}
                     onPressItem={this.onRemoveTodo}
                 />
-            </View>
+            </ScrollView>
         );
     }
 }

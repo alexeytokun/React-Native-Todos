@@ -1,11 +1,14 @@
 {
   "expo": {
-    "name":"my app",
-    "description":"some description about our project",
+    "name": "Todos",
+    "description": "some description about our project",
     "sdkVersion": "27.0.0",
-    "android":{
-      "package":"com.atokun.todos",
-      "versionCode":1
+    "android": {
+      "package": "com.tokun.todos",
+      "versionCode": 1
+    },
+    "packagerOpts": {
+      "nonPersistent": true
     }
   }
 }
