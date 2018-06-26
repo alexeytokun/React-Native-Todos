@@ -7,7 +7,7 @@ export default class Input extends Component {
     };
 
     onChangeText = (text) => {
-        this.setState({text})
+        this.setState({text});
     };
 
     onSubmitEditing = () => {
@@ -16,8 +16,8 @@ export default class Input extends Component {
 
         if(!text) return;
 
-        onSubmitEditing(text);
-        this.setState({text: ''})
+        onSubmitEditing({text, done: false});
+        this.setState({text: ''});
     };
 
     render() {
