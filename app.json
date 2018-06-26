@@ -1,12 +1,14 @@
 {
   "expo": {
     "name": "Todos",
-    "description": "some description about our project",
+    "icon": "./assets/icon.png",
+    "description": "Simple TODO app",
     "sdkVersion": "27.0.0",
     "android": {
       "package": "com.tokun.todos",
       "versionCode": 1
     },
+    "androidStatusBarColor":  "#000000",
     "packagerOpts": {
       "nonPersistent": true
     }
